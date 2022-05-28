@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  
+  <title>2010年终总结（技术篇） | XAVIER&#39;S BLOG</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="进入软件行业将近一年了，技术方面这一年学到了很多，总结一下，o(∩∩)o…哈哈">
+<meta property="og:type" content="article">
+<meta property="og:title" content="2010年终总结（技术篇）">
+<meta property="og:url" content="http://largepuma.github.io/blog/2011/01/09/2010%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93%EF%BC%88%E6%8A%80%E6%9C%AF%E7%AF%87%EF%BC%89/index.html">
+<meta property="og:site_name" content="XAVIER&#39;S BLOG">
+<meta property="og:description" content="进入软件行业将近一年了，技术方面这一年学到了很多，总结一下，o(∩∩)o…哈哈">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2011-01-09T12:12:06.000Z">
+<meta property="article:modified_time" content="2022-05-28T02:16:57.915Z">
+<meta property="article:author" content="Xavier Liu">
+<meta name="twitter:card" content="summary">
+  
+    <link rel="alternate" href="/blog/atom.xml" title="XAVIER'S BLOG" type="application/atom+xml">
+  
+  
+    <link rel="shortcut icon" href="/blog/favicon.png">
+  
+  
+    
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-source-code-pro@0.0.71/index.min.css">
+
+  
+  
+<link rel="stylesheet" href="/blog/css/style.css">
+
+  
+    
+<link rel="stylesheet" href="/blog/fancybox/jquery.fancybox.min.css">
+
+  
+<meta name="generator" content="Hexo 6.2.0"></head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/blog/" id="logo">XAVIER&#39;S BLOG</a>
+      </h1>
+      
+        <h2 id="subtitle-wrap">
+          <a href="/blog/" id="subtitle">Think Bigger, Go Further</a>
+        </h2>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/blog/">Home</a>
+        
+          <a class="main-nav-link" href="/blog/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/blog/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://largepuma.github.io/blog"></form>
+      </div>
+    </div>
+  </div>
+</header>
+
+      <div class="outer">
+        <section id="main"><article id="post-2010年终总结（技术篇）" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/blog/2011/01/09/2010%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93%EF%BC%88%E6%8A%80%E6%9C%AF%E7%AF%87%EF%BC%89/" class="article-date">
+  <time class="dt-published" datetime="2011-01-09T12:12:06.000Z" itemprop="datePublished">2011-01-09</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/blog/categories/Other/">Other</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="p-name article-title" itemprop="headline name">
+      2010年终总结（技术篇）
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <p>    进入软件行业将近一年了，技术方面这一年学到了很多，总结一下，o(∩∩)o…哈哈</p>
+<span id="more"></span>
+<p>    </p>
+<p> <strong>A.项目经历</strong></p>
+<p>    今年我是从3月份加入了南京诚迈公司，期间一共参与了四个项目，有三个是围绕webkit展开，另一个关于播放器。</p>
+<p>    第一个项目是将webkit移植至基于gtk+的arm平台。从引导器，内核，X，gtk+，一直编译至webkit，过程十分辛苦，也十分快乐，最终我们实现了一个仅有20M左右大小，支持网页浏览的嵌入式系统。</p>
+<p>    第二个做的是widget engine的项目。主要是在android完成符合 jil (wac)标准的widget运行平台。我们是通过移植出android本身的webkit内核，形成一个独立的应用，可供第三方调用，并通过JS扩展，来完成device APIs的功能。</p>
+<p>    下一个是完成一个android平台上的视频播放器。我们将ffmpeg移植至android平台，并通过调用系统本身功能，来完成音视频的播放，最终形成一个在android可以播放任意格式音视频的播放器。</p>
+<p>    最后一个项目是smart手机的定制，我们将widget engine升级至wac标准，表将引擎与手机系统整合，使普通的widget类似本地应用一般运行。</p>
+<p>  <strong>B. 语言学习</strong></p>
+<p>    由于项目的原因，我现在日常使用的是c++与java语音，不过日常也使用些c，bash些一些东西，对其他语言也有所了解。</p>
+<p>    c, c++ ：这两门语音运用太广泛了，很多开源项目都是基于它们的。使用c可以控制程序的更多方面，多用在系统编程，要熟练掌握c语言至少要清楚计算机原理，操作系统，数据结构与算法。使用c语音的有linux kernel，ffmpeg，gtk+等。c++提供大量面向对象的设施，拥有使用方便的标准卡，更适用快速开发大型项目，当然它比c也隐藏了更多的细节。使用c++的有webkit，Qt等。</p>
+<p>    java ： 如果你繁琐了c和c++里太多细节控制，如果你想快速完成功能，那么java应该会是个不错的选择。android的framework层便为java所写，快速开发应用。</p>
+<p>    perl, python, php: 我只用过perl写过一些代码，功能十分强大的脚本语言，有空可以学习一下。</p>
+<p>    bash :系统管理环境&#x2F;脚本，只用使用linux，天天必须打交道。</p>
+<p>    javascript ：web开发必备。了解javascriptcore和v8两个js引擎，知道怎么在webkit中进行对象绑定。</p>
+<p>    lua : 一个小巧的脚本语言，适合绑定到c。</p>
+<p>   ** C. 集成开发**</p>
+<p>    没想好给这个部分起什么名字，但很清楚写什么内容。语言只是一个工具，怎么运用这些工具完成需求，形成产品，这里面又有很多内容需要研究。这里我们讨论一下最为常用的一些系统。</p>
+<p>    操作系统：管理硬件资源，为上层程序的运行提供环境。从接口方面看，调用硬件接口（调用CPU指令，读写存储器，寄存器，IO口），为程序提供系统调用（linux系统调用详见unistd.h）。主要开发语言为c，c++，部分功能使用汇编。</p>
+<p>    GUI：管理鼠标，键盘，显示器等IO设备，提供图像化的用户接口。主要包括对IO设备的管理，图像的绘制，窗口的管理等，一般还包括消息机制，主循环等。linux下常见的有gtk+, Qt, ftk, fltk。</p>
+<p>    服务器应用：感觉使用daemon会更好一点，Server端为客户提供服务，主要是请求的处理，这个还须研究。</p>
+<p>    桌面应用：主要为使用GUI提供的设施，完成一些桌面上完成的功能，比如说播放器，浏览器，阅读器，编辑器等。</p>
+<p>    设计模式，面向对象，分层，DRY，KISS </p>
+<p>    <strong>D. 项目管理</strong> </p>
+<p>     从年中时我已经开始接手一些项目管理的工作，项目管理绝不比开发来得轻松。</p>
+<p>    如何让合适的人在合适的时间去做合适的事情？ 还有资源的调配，用户的沟通…</p>
+<p>    需求清晰  我们写代码的目的是完成需求，因此对需求的清晰理解是项目成功的第一步。只有完成满足需要的产品，才是有价值的活动。</p>
+<p>    人员安排  能者多劳，奖惩制度。</p>
+<p>    时间控制  人月神话。</p>
+<p>    开始打造属于自己的团队！</p>
+<p>    路漫漫其修远兮，吾将上下而求索！2011，一定要给力！</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://largepuma.github.io/blog/2011/01/09/2010%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93%EF%BC%88%E6%8A%80%E6%9C%AF%E7%AF%87%EF%BC%89/" data-id="cl3p8sslf0011d8omgak6fr4c" data-title="2010年终总结（技术篇）" class="article-share-link">Share</a>
+      
+      
+      
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/blog/2011/03/05/video-player-multimedia-framework/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          Video Player &amp; Multimedia Framework
+        
+      </div>
+    </a>
+  
+  
+    <a href="/blog/2010/11/21/%E5%85%B3%E4%BA%8E%E7%94%9F%E6%B4%BB%E7%9A%84%E6%80%9D%E8%80%83/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">关于生活的思考</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Categories</h3>
+    <div class="widget">
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/blog/categories/English/">English</a></li><li class="category-list-item"><a class="category-list-link" href="/blog/categories/Enterprise/">Enterprise</a></li><li class="category-list-item"><a class="category-list-link" href="/blog/categories/Game/">Game</a></li><li class="category-list-item"><a class="category-list-link" href="/blog/categories/Intelligence/">Intelligence</a></li><li class="category-list-item"><a class="category-list-link" href="/blog/categories/Life/">Life</a></li><li class="category-list-item"><a class="category-list-link" href="/blog/categories/Other/">Other</a></li><li class="category-list-item"><a class="category-list-link" href="/blog/categories/Study/">Study</a></li><li class="category-list-item"><a class="category-list-link" href="/blog/categories/Tech/">Tech</a></li><li class="category-list-item"><a class="category-list-link" href="/blog/categories/World/">World</a></li><li class="category-list-item"><a class="category-list-link" href="/blog/categories/politics/">politics</a></li><li class="category-list-item"><a class="category-list-link" href="/blog/categories/uncategorized/">uncategorized</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tags</h3>
+    <div class="widget">
+      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/blog/tags/DearJar/" rel="tag">DearJar</a></li><li class="tag-list-item"><a class="tag-list-link" href="/blog/tags/Design/" rel="tag">Design</a></li><li class="tag-list-item"><a class="tag-list-link" href="/blog/tags/Entrepreneurs/" rel="tag">Entrepreneurs</a></li><li class="tag-list-item"><a class="tag-list-link" href="/blog/tags/Intelligence/" rel="tag">Intelligence</a></li><li class="tag-list-item"><a class="tag-list-link" href="/blog/tags/Javascript/" rel="tag">Javascript</a></li><li class="tag-list-item"><a class="tag-list-link" href="/blog/tags/Life/" rel="tag">Life</a></li><li class="tag-list-item"><a class="tag-list-link" href="/blog/tags/Memory/" rel="tag">Memory</a></li><li class="tag-list-item"><a class="tag-list-link" href="/blog/tags/Mirosoft/" rel="tag">Mirosoft</a></li><li class="tag-list-item"><a class="tag-list-link" href="/blog/tags/Node-js/" rel="tag">Node.js</a></li><li class="tag-list-item"><a class="tag-list-link" href="/blog/tags/RoR/" rel="tag">RoR</a></li><li class="tag-list-item"><a class="tag-list-link" href="/blog/tags/Ruby/" rel="tag">Ruby</a></li><li class="tag-list-item"><a class="tag-list-link" href="/blog/tags/Time/" rel="tag">Time</a></li><li class="tag-list-item"><a class="tag-list-link" href="/blog/tags/android/" rel="tag">android</a></li><li class="tag-list-item"><a class="tag-list-link" href="/blog/tags/architect/" rel="tag">architect</a></li><li class="tag-list-item"><a class="tag-list-link" href="/blog/tags/death/" rel="tag">death</a></li><li class="tag-list-item"><a class="tag-list-link" href="/blog/tags/gfw/" rel="tag">gfw</a></li><li class="tag-list-item"><a class="tag-list-link" href="/blog/tags/gtk/" rel="tag">gtk</a></li><li class="tag-list-item"><a class="tag-list-link" href="/blog/tags/iOS/" rel="tag">iOS</a></li><li class="tag-list-item"><a class="tag-list-link" href="/blog/tags/java/" rel="tag">java</a></li><li class="tag-list-item"><a class="tag-list-link" href="/blog/tags/lisp/" rel="tag">lisp</a></li><li class="tag-list-item"><a class="tag-list-link" href="/blog/tags/mac/" rel="tag">mac</a></li><li class="tag-list-item"><a class="tag-list-link" href="/blog/tags/money/" rel="tag">money</a></li><li class="tag-list-item"><a class="tag-list-link" href="/blog/tags/mysql/" rel="tag">mysql</a></li><li class="tag-list-item"><a class="tag-list-link" href="/blog/tags/object-c/" rel="tag">object-c</a></li><li class="tag-list-item"><a class="tag-list-link" href="/blog/tags/open-source/" rel="tag">open source</a></li><li class="tag-list-item"><a class="tag-list-link" href="/blog/tags/python/" rel="tag">python</a></li><li class="tag-list-item"><a class="tag-list-link" href="/blog/tags/rules/" rel="tag">rules</a></li><li class="tag-list-item"><a class="tag-list-link" href="/blog/tags/study/" rel="tag">study</a></li><li class="tag-list-item"><a class="tag-list-link" href="/blog/tags/swimming/" rel="tag">swimming</a></li><li class="tag-list-item"><a class="tag-list-link" href="/blog/tags/thinking/" rel="tag">thinking</a></li><li class="tag-list-item"><a class="tag-list-link" href="/blog/tags/ubuntu/" rel="tag">ubuntu</a></li><li class="tag-list-item"><a class="tag-list-link" href="/blog/tags/webkit/" rel="tag">webkit</a></li><li class="tag-list-item"><a class="tag-list-link" href="/blog/tags/world/" rel="tag">world</a></li><li class="tag-list-item"><a class="tag-list-link" href="/blog/tags/%E5%8F%B0%E6%B9%BE/" rel="tag">台湾</a></li><li class="tag-list-item"><a class="tag-list-link" href="/blog/tags/%E5%A4%A7%E9%99%86/" rel="tag">大陆</a></li><li class="tag-list-item"><a class="tag-list-link" href="/blog/tags/%E6%9C%9D%E9%B2%9C/" rel="tag">朝鲜</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tag Cloud</h3>
+    <div class="widget tagcloud">
+      <a href="/blog/tags/DearJar/" style="font-size: 10px;">DearJar</a> <a href="/blog/tags/Design/" style="font-size: 10px;">Design</a> <a href="/blog/tags/Entrepreneurs/" style="font-size: 10px;">Entrepreneurs</a> <a href="/blog/tags/Intelligence/" style="font-size: 10px;">Intelligence</a> <a href="/blog/tags/Javascript/" style="font-size: 10px;">Javascript</a> <a href="/blog/tags/Life/" style="font-size: 16.67px;">Life</a> <a href="/blog/tags/Memory/" style="font-size: 10px;">Memory</a> <a href="/blog/tags/Mirosoft/" style="font-size: 10px;">Mirosoft</a> <a href="/blog/tags/Node-js/" style="font-size: 10px;">Node.js</a> <a href="/blog/tags/RoR/" style="font-size: 10px;">RoR</a> <a href="/blog/tags/Ruby/" style="font-size: 10px;">Ruby</a> <a href="/blog/tags/Time/" style="font-size: 10px;">Time</a> <a href="/blog/tags/android/" style="font-size: 10px;">android</a> <a href="/blog/tags/architect/" style="font-size: 10px;">architect</a> <a href="/blog/tags/death/" style="font-size: 13.33px;">death</a> <a href="/blog/tags/gfw/" style="font-size: 10px;">gfw</a> <a href="/blog/tags/gtk/" style="font-size: 10px;">gtk</a> <a href="/blog/tags/iOS/" style="font-size: 10px;">iOS</a> <a href="/blog/tags/java/" style="font-size: 10px;">java</a> <a href="/blog/tags/lisp/" style="font-size: 10px;">lisp</a> <a href="/blog/tags/mac/" style="font-size: 10px;">mac</a> <a href="/blog/tags/money/" style="font-size: 10px;">money</a> <a href="/blog/tags/mysql/" style="font-size: 10px;">mysql</a> <a href="/blog/tags/object-c/" style="font-size: 10px;">object-c</a> <a href="/blog/tags/open-source/" style="font-size: 10px;">open source</a> <a href="/blog/tags/python/" style="font-size: 10px;">python</a> <a href="/blog/tags/rules/" style="font-size: 10px;">rules</a> <a href="/blog/tags/study/" style="font-size: 20px;">study</a> <a href="/blog/tags/swimming/" style="font-size: 10px;">swimming</a> <a href="/blog/tags/thinking/" style="font-size: 13.33px;">thinking</a> <a href="/blog/tags/ubuntu/" style="font-size: 10px;">ubuntu</a> <a href="/blog/tags/webkit/" style="font-size: 10px;">webkit</a> <a href="/blog/tags/world/" style="font-size: 10px;">world</a> <a href="/blog/tags/%E5%8F%B0%E6%B9%BE/" style="font-size: 10px;">台湾</a> <a href="/blog/tags/%E5%A4%A7%E9%99%86/" style="font-size: 10px;">大陆</a> <a href="/blog/tags/%E6%9C%9D%E9%B2%9C/" style="font-size: 13.33px;">朝鲜</a>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2022/05/">May 2022</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2022/04/">April 2022</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2021/07/">July 2021</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2020/07/">July 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2019/04/">April 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2015/08/">August 2015</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2015/03/">March 2015</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2015/01/">January 2015</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2014/10/">October 2014</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2014/09/">September 2014</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2014/08/">August 2014</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2014/06/">June 2014</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2014/05/">May 2014</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2013/12/">December 2013</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2013/11/">November 2013</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2013/09/">September 2013</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2013/07/">July 2013</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2013/06/">June 2013</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2013/02/">February 2013</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2012/11/">November 2012</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2012/09/">September 2012</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2012/08/">August 2012</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2012/06/">June 2012</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2012/05/">May 2012</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2012/04/">April 2012</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2012/03/">March 2012</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2012/02/">February 2012</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2012/01/">January 2012</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2011/12/">December 2011</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2011/11/">November 2011</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2011/10/">October 2011</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2011/09/">September 2011</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2011/08/">August 2011</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2011/07/">July 2011</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2011/06/">June 2011</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2011/03/">March 2011</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2011/01/">January 2011</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2010/11/">November 2010</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2010/10/">October 2010</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2010/09/">September 2010</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2010/07/">July 2010</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2010/06/">June 2010</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2010/04/">April 2010</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2009/10/">October 2009</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2009/07/">July 2009</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2009/06/">June 2009</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2009/04/">April 2009</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2009/03/">March 2009</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2008/11/">November 2008</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2008/08/">August 2008</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2008/04/">April 2008</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/blog/2022/05/28/hello-world/">Hello World</a>
+          </li>
+        
+          <li>
+            <a href="/blog/2022/04/03/wp-global-styles-twentytwentyone/">Custom Styles</a>
+          </li>
+        
+          <li>
+            <a href="/blog/2021/07/31/kerbal-space-program/">Kerbal Space Program</a>
+          </li>
+        
+          <li>
+            <a href="/blog/2021/07/10/52638/">Untitled Post - 1</a>
+          </li>
+        
+          <li>
+            <a href="/blog/2021/07/10/52639/">Untitled Post - 2</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      
+      &copy; 2022 Xavier Liu<br>
+      Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/blog/" class="mobile-nav-link">Home</a>
+  
+    <a href="/blog/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+
+<script src="/blog/js/jquery-3.4.1.min.js"></script>
+
+
+
+  
+<script src="/blog/fancybox/jquery.fancybox.min.js"></script>
+
+
+
+
+<script src="/blog/js/script.js"></script>
+
+
+
+
+
+  </div>
+</body>
+</html>
