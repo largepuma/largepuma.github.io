@@ -6,9 +6,13 @@ categories:
   - - uncategorized
 ---
 
+
 ```
+
+sudo apt install wireguard
+
 sudo apt install bind9
-sudo vi /etc/bind/named.conf.options
+sudo vim /etc/bind/named.conf.options
 
 options {
         directory "/var/cache/bind";
@@ -36,3 +40,10 @@ sudo systemctl start wg-quick@wg0
 sudo wg status
 sudo wg show
 ```
+
+Pay attention to the network inface name. It may change in deffient system, like eth0 or ens5.
+
+
+Reference: 
+1. https://emanuelduss.ch/2018/09/29/wireguard-vpn-road-warrior-setup/
+2. https://www.wireguard.com/install/
