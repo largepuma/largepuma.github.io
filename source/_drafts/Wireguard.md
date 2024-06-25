@@ -9,8 +9,22 @@ categories:
 
 ```
 
-sudo apt install wireguard
+# Enable IP Forwarding
+```
+# ls -l /etc/sysctl.d/wireguard.conf 
+-rw------- 1 root root 53 Sep 25 22:23 /etc/sysctl.d/wireguard.conf
+# cat /etc/sysctl.d/wireguard.conf 
+net.ipv4.ip_forward=1
+net.ipv6.conf.all.forwarding=1
 
+# sysctl -p /etc/sysctl.d/wireguard.conf
+net.ipv4.ip_forward = 1
+net.ipv6.conf.all.forwarding = 1
+```
+
+# Install and configure Bind & Wireguard
+
+sudo ufw disable
 sudo apt install bind9
 sudo vim /etc/bind/named.conf.options
 
@@ -35,6 +49,7 @@ sudo service bind9 restart
 
 sudo ln -s /run/systemd/resolve/stub-resolv.conf /etc/resolv.conf
 
+sudo apt install wireguard
 sudo systemctl stop wg-quick@wg0
 sudo vim /etc/wireguard/wg0.conf
 sudo systemctl start wg-quick@wg0
