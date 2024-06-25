@@ -11,13 +11,13 @@ categories:
 
 # Enable IP Forwarding
 ```
-# ls -l /etc/sysctl.d/wireguard.conf 
+-> ls -l /etc/sysctl.d/wireguard.conf 
 -rw------- 1 root root 53 Sep 25 22:23 /etc/sysctl.d/wireguard.conf
-# cat /etc/sysctl.d/wireguard.conf 
+-> cat /etc/sysctl.d/wireguard.conf 
 net.ipv4.ip_forward=1
 net.ipv6.conf.all.forwarding=1
 
-# sysctl -p /etc/sysctl.d/wireguard.conf
+-> sysctl -p /etc/sysctl.d/wireguard.conf
 net.ipv4.ip_forward = 1
 net.ipv6.conf.all.forwarding = 1
 ```
