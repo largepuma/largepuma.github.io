@@ -1,3 +1,8 @@
+---
+layout: default
+title: Privacy Policy
+---
+
 # Privacy Policy for ReplyWise AI – Amazon Review Reply Assistant
 
 *Last updated: March 14, 2026*
